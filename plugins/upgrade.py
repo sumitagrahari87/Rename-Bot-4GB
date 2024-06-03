@@ -25,9 +25,9 @@ async def upgrade(bot,update):
 	After Payment Send Screenshots Of 
         Payment To Admin @calladminrobot"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/calladminrobot")], 
-        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/7f959437f9375b313ed1c.jpg"),
-        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://telegra.ph/file/30b3e45a02766803883cb.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Admin",url = "https://t.me/RockyDadaa")], 
+        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/f04592440fc596a8fdd47.jpg"),
+        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://telegra.ph/file/f04592440fc596a8fdd47.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -55,9 +55,9 @@ async def upgradecm(bot,message):
 	After Payment Send Screenshots Of 
         Payment To Admin @calladminrobot"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/calladminrobot")], 
-        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/7f959437f9375b313ed1c.jpg"),
-        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://telegra.ph/file/30b3e45a02766803883cb.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Admin",url = "https://t.me/RockyDadaa")], 
+        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/f04592440fc596a8fdd47.jpg"),
+        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://telegra.ph/file/f04592440fc596a8fdd47.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
